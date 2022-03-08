@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "outDir": "out",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["dom", "es2017", "es2019.array"],
+    "baseUrl": ".",
+    "paths": {
+      "nemo-pricing": ["../package-pricing"]
+    }
+  },
+  "include": ["backend", "client"],
+  "exclude": ["node_modules"],
+  "type": ["mocha"]
+}
